@@ -5,7 +5,7 @@ students = [
      "courses": ["History", "Art"]
     },
     {
-    "name": "Charlie",
+    "name": "Charlie", 
     "age": 23,
     "grade": "C",
     "courses": ["Biology", "Chemistry"]

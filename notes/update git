@@ -1,0 +1,3 @@
+git add .
+git commit -m "Add dictionaries lesson and PDFs"
+git push
