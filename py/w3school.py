@@ -74,9 +74,37 @@
 #     x = "OSEM"
 #     print("Python is " + x) 
 
-# myfunc()
+# # myfunc()
 
-# print("Python is " + x)
+# # print("Python is " + x)
 
-x = 5.0
-print(type(x))
+# x = 5.0
+# print(type(x))
+
+# x = 1    # int
+# y = 2.8  # float
+# z = 1j   # complex
+
+# print(type(x))
+# print(type(y))
+# print(type(z))
+
+# a = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+# print(a)
+
+# a = "Hello, World!"
+# print(a[1])
+
+# colors = ("red", "blue", "green")
+
+# for z in colors:
+#     print(z)
+
+# a = "Hello, World!"
+# print(len(a))
+
+txt = "The best things in life are free!"
+print("free" in txt)
