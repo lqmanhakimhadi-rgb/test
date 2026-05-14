@@ -45,3 +45,7 @@ preferred=1.1.1.1
 alternate=1.0.0.1
 
 powershell/cmd admin=ipconfig /flushdns
+
+
+[notice] A new release of pip is available: 26.0.1 -> 26.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip

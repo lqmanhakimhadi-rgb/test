@@ -45,6 +45,17 @@ class DatabaseManager:
         except sqlite3.IntegrityError as e:
             print(f"Error: {e}")
             return None
+
+    def update_user(self, user_id, email, age):
+
+        with sqlite3.connect(self.db_name) as conn:
+            cursor = conn.cursor()
+            cursor.execute('''
+                    UPDATE users 
+                    SET email = ?, age = ? 
+                    WHERE id = ?
+                ''', (user_id, email, age))       
+
         
     def create_post(self, user_id, title, content):
 
